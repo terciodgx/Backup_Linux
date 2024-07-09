@@ -27,7 +27,7 @@ if tar -czpf "$vardestino/$varnome_arquivo" "$varorigem"; then
 else
         echo "$vardatahora Falha na realizaçao do backup" >> $vardatahora_log
         #imprime na tela para o usuario visualizar
-        printf "Falha na realizaçao do backup\n"
+        printf "Falha na realizaçao do backup, favor verificar\n"
 fi
 
 
