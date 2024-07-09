@@ -54,7 +54,7 @@ fi
 
 ```
 4. Após criar o script usei ```ctrl + o```para salvar, e ```ctrl + x``` para sair.
-5. Usei comando ```chmod +x``` para tornar o script executável
+5. Usei comando ```chmod +x /usr/local/bin/backup-full.sh``` para tornar o script executável
 6. É importante veirificar a data e hora do servidor, para isso use ```timedatectl```
 7. Para automatizar o scritp utilizei o recurso CRON, usando o comando ```sudo crontab -e```, abaixo, segue o código utilizado:
 
