@@ -23,11 +23,11 @@ echo "iniciando processo de backup..."
 if tar -czpf "$vardestino/$varnome_arquivo" "$varorigem"; then
         echo "$vardatahora Backup Concluido com Sucesso" >> $vararquivo_log
         #imprime a informaçao na tela para o usuario visualizar
-        printf "Backup Conluido com Sucesso \n"
+        printf "Backup Conluido com Sucesso. \n"
 else
         echo "$vardatahora Falha na realizaçao do backup" >> $vardatahora_log
         #imprime na tela para o usuario visualizar
-        printf "Falha na realizaçao do backup, favor verificar\n"
+        printf "Falha na realizaçao do backup, favor verificar.\n"
 fi
 
 
